@@ -1,8 +1,5 @@
 {
-    "buildCommand": "npx convex deploy --cmd 'npm run build'",
-    "env": {
-      "VITE_CONVEX_URL": "https://precious-caiman-557.convex.cloud"
-    },
+    "buildCommand": "npm run build:prod",
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
     ]
